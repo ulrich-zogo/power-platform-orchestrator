@@ -18,9 +18,9 @@ const os = require("os");
 const https = require("https");
 
 // ── Config ────────────────────────────────────────────────────
-const REPO = "microsoft/power-platform-skills";
+const REPO = process.env.PPS_REPO || "microsoft/power-platform-skills";
 const REPO_URL = `https://github.com/${REPO}.git`;
-const MARKETPLACE_NAME = "power-platform-skills";
+const MARKETPLACE_NAME = process.env.PPS_MARKETPLACE_NAME || "power-platform-skills";
 const GITHUB_RAW = `https://raw.githubusercontent.com/${REPO}/main`;
 const HOME = os.homedir();
 const OPENCODE_CONFIG_ROOT = path.join(HOME, ".config", "opencode");
