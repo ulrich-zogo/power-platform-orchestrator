@@ -87,6 +87,8 @@ Coordinate complete Power Platform solutions that span multiple plugins and comp
 
 **Coordinates**: Power Pages, Canvas Apps, Code Apps, Model Apps, MCP Apps, shared Dataverse/environment context
 
+**Fork**: https://github.com/ulrich-zogo/power-platform-orchestrator
+
 ### [Power Pages](plugins/power-pages/README.md) (`plugins/power-pages`)
 
 Create and deploy Power Pages sites using modern development approaches.
